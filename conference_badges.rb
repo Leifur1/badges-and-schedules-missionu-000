@@ -1,4 +1,4 @@
-class conference_badges
+class conference_badges(name)
   def badge_maker(name)
     badges = []
     attendees << name
