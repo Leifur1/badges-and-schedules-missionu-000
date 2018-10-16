@@ -8,7 +8,7 @@ def batch_badge_creator(attendees)
   end
 end
 
-room = 1
+room = 0
 def assign_rooms(attendees)
   attendees.collect do |name|
     room +=1
