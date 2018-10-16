@@ -8,7 +8,6 @@ def batch_badge_creator(attendees)
   end
 end
 
-
 def assign_rooms(attendees)
   room = 0
   attendees.collect do |name|
@@ -18,4 +17,10 @@ def assign_rooms(attendees)
 end
 
 def printer
+  batch_badge_creator(attendees).each do |i|
+    print(i)
+  end
+  assign_rooms(attendees).each do |i|
+    print(i)
+  end
 end
