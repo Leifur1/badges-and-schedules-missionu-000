@@ -7,3 +7,4 @@ class conference_badges
     end
     badges
   end
+end
